@@ -1,0 +1,46 @@
+.form-body{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.form{
+    width:30%;
+}
+
+.form--content{
+    display: flex;
+    flex-direction: column;
+}
+.form--row{
+    display: flex;
+    justify-content: space-between;
+}
+.form--column{
+    display: flex;
+    flex-direction: column;
+}
+
+.form label{
+    margin: 5px;
+}
+
+.form input{
+    margin: 5px;
+    padding: 6px;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(234, 234, 235);
+    outline: none;
+}
+
+.button--container{
+    display: flex;
+    justify-content: flex-end;
+}
+.button--container button{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
